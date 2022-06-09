@@ -7,5 +7,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="JDA-4.3.0_277-withDependencies (1)" level="project" />
   </component>
 </module>
