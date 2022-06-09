@@ -14,7 +14,7 @@
 .mtj.tmp/
 Keys/
 # Package Files #
-
+*.txt
 *.war
 *.nar
 *.ear
