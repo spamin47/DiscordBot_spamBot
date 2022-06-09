@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3848773-76f5-4940-8f0d-9936633c2be5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscordBot_spamBot/Discord_bot/BotStartup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscordBot_spamBot/Discord_bot/BotStartup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Discord_bot/BotStartup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Discord_bot/BotStartup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +41,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\minh\eclipse-workspace\DiscordBot_spamBot\.idea\libraries" />
+      <recent name="C:\Users\minh\eclipse-workspace\DiscordBot_spamBot\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\minh\eclipse-workspace\DiscordBot_spamBot\src" />
     </key>
   </component>
