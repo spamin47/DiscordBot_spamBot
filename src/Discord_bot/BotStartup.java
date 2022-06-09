@@ -18,7 +18,12 @@ public class BotStartup {
 
         jda.setActivity(Activity.watching("Your mother"));
         jda.setStatus(OnlineStatus.ONLINE); //can set it to DO NOTDISTURB, IDLE, OFFLINE, INVISIBLE. Setting to invisible or offline is a bad idea
+
+        //adding event listeners
+        jda.addEventListeners(new Listener());
         jda.addEventListeners(new Commands("!"));
+
+
         jda.setChunkingFilter(ChunkingFilter.ALL); //allow you to see all the members in the discord server
         jda.setMemberCachePolicy(MemberCachePolicy.ALL);
         jda.enableIntents(GatewayIntent.GUILD_MEMBERS);//gives permissions to view members
