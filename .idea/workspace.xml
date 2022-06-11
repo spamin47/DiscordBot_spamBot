@@ -4,7 +4,10 @@
     <list default="true" id="f3848773-76f5-4940-8f0d-9936633c2be5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DiscordBot_spamBot/Discord_bot/BotStartup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscordBot_spamBot/Discord_bot/BotStartup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscordBot_spamBot/Discord_bot/Commands.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Discord_bot/BotStartup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Discord_bot/BotStartup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Discord_bot/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Discord_bot/Command/Commands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Discord_bot/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Discord_bot/Listener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +47,7 @@
       <recent name="C:\Users\minh\eclipse-workspace\DiscordBot_spamBot\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\minh\eclipse-workspace\DiscordBot_spamBot\src\Discord_bot\Command" />
       <recent name="C:\Users\minh\eclipse-workspace\DiscordBot_spamBot\src" />
     </key>
   </component>
@@ -53,7 +57,7 @@
       <module name="DiscordBot_spamBot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Discord_bot.*" />
+          <option name="PATTERN" value="Discord_bot.Command.Commands.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

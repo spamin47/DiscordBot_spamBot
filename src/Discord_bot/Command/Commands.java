@@ -1,4 +1,4 @@
-package Discord_bot;
+package Discord_bot.Command;
 
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.Permission;
@@ -22,8 +22,11 @@ public class Commands extends ListenerAdapter{
     {
         String[] args = event.getMessage().getContentRaw().split(" ");
 
+        System.out.println("\nRaw Content: \n" + event.getMessage());
+        System.out.println("Command input: \n" + args[0]);
         //basic commmand
-        if(args[0].equalsIgnoreCase(prefix + "hi")) {
+        if(args[0].equalsIgnoreCase(prefix + "hii")) {
+            System.out.println(args[0]);//
             event.getMessage().reply("shut up retard!").queue();
             event.getMessage().reply("keep malding").queue();
             event.getMessage().reply("ratioed").queue();

@@ -1,5 +1,7 @@
 package Discord_bot;
 
+import Discord_bot.Command.CommandListener;
+import Discord_bot.Command.Commands;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
@@ -22,6 +24,7 @@ public class BotStartup {
         //adding event listeners
         jda.addEventListeners(new Listener());
         jda.addEventListeners(new Commands("!"));
+        jda.addEventListeners(new CommandListener("!"));
 
 
         jda.setChunkingFilter(ChunkingFilter.ALL); //allow you to see all the members in the discord server
