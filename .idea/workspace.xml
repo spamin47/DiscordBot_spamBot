@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3848773-76f5-4940-8f0d-9936633c2be5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot_spamBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot_spamBot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Discord_bot/Commands/Music/AudioPlayerSendHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Discord_bot/Commands/Music/AudioPlayerSendHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Discord_bot/Commands/Music/JoinCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Discord_bot/Commands/Music/JoinCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Discord_bot/Commands/Music/TrackScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Discord_bot/Commands/Music/TrackScheduler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

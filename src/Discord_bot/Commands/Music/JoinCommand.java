@@ -22,7 +22,7 @@ public class JoinCommand implements Command {
         final Member self = event.getGuild().getSelfMember();
         final GuildVoiceState selfVoiceState = self.getVoiceState();
 
-        if(selfVoiceState.inVoiceChannel()){
+        if(selfVoiceState.inVoiceChannel()){ //check if bot is currently in a Voice Channel
             channel.sendMessage("I'm already in a voice channel!").queue();
             return;
         }
@@ -30,7 +30,7 @@ public class JoinCommand implements Command {
         final Member member = event.getMember();
         final GuildVoiceState memberVoiceState = member.getVoiceState();
 
-        if(!memberVoiceState.inVoiceChannel()){
+        if(!memberVoiceState.inVoiceChannel()){ //check if member that sent command is in Voice Channel
             channel.sendMessage("You need to be in voice channel for me to join!").queue();
             return;
         }

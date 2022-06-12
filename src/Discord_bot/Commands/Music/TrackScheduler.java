@@ -10,7 +10,8 @@ import java.util.concurrent.LinkedBlockingQueue;
 public class TrackScheduler extends AudioEventAdapter{
 
     private final AudioPlayer player;
-    private final BlockingQueue<AudioTrack> queue;
+    private final BlockingQueue<AudioTrack> queue; //queue for tracks
+
 
     public TrackScheduler(AudioPlayer player){
         this.player = player;
@@ -18,8 +19,8 @@ public class TrackScheduler extends AudioEventAdapter{
     }
 
     public void queue(AudioTrack track){
-        if(!this.player.startTrack(track,true)){
-            this.queue.offer(track); //adds track to queue
+        if(!this.player.startTrack(track,true)){ //player start track if nothing is playing at the moment.
+            this.queue.offer(track); //adds track to queue if a track is playing
         }
     }
 
